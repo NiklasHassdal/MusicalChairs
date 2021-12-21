@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBoxMaxDuration.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBoxMaxDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 29</value>
+  </data>
+  <data name="textBoxMaxDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="textBoxMaxDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textBoxMaxDuration.Name" xml:space="preserve">
+    <value>textBoxMaxDuration</value>
+  </data>
+  <data name="&gt;&gt;textBoxMaxDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxMaxDuration.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;textBoxMaxDuration.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelMaxDuration.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="labelMaxDuration.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMaxDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 32</value>
+  </data>
+  <data name="labelMaxDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="labelMaxDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelMaxDuration.Text" xml:space="preserve">
+    <value>Minimum duration</value>
+  </data>
+  <data name="&gt;&gt;labelMaxDuration.Name" xml:space="preserve">
+    <value>labelMaxDuration</value>
+  </data>
+  <data name="&gt;&gt;labelMaxDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMaxDuration.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;labelMaxDuration.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelMinDuration.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="labelMinDuration.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMinDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="labelMinDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="labelMinDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelMinDuration.Text" xml:space="preserve">
+    <value>Minimum duration</value>
+  </data>
+  <data name="&gt;&gt;labelMinDuration.Name" xml:space="preserve">
+    <value>labelMinDuration</value>
+  </data>
+  <data name="&gt;&gt;labelMinDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMinDuration.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;labelMinDuration.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBoxMinDuration.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="textBoxMinDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 3</value>
+  </data>
+  <data name="textBoxMinDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="textBoxMinDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBoxMinDuration.Name" xml:space="preserve">
+    <value>textBoxMinDuration</value>
+  </data>
+  <data name="&gt;&gt;textBoxMinDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxMinDuration.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;textBoxMinDuration.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelMinSeconds.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="labelMinSeconds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMinSeconds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 6</value>
+  </data>
+  <data name="labelMinSeconds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="labelMinSeconds.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelMinSeconds.Text" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="&gt;&gt;labelMinSeconds.Name" xml:space="preserve">
+    <value>labelMinSeconds</value>
+  </data>
+  <data name="&gt;&gt;labelMinSeconds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMinSeconds.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;labelMinSeconds.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonStart.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="buttonStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 101</value>
+  </data>
+  <data name="buttonStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 41</value>
+  </data>
+  <data name="buttonStart.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="buttonStart.Text" xml:space="preserve">
+    <value>Start!</value>
+  </data>
+  <data name="&gt;&gt;buttonStart.Name" xml:space="preserve">
+    <value>buttonStart</value>
+  </data>
+  <data name="&gt;&gt;buttonStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonStart.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;buttonStart.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelMaxSeconds.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="labelMaxSeconds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMaxSeconds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 32</value>
+  </data>
+  <data name="labelMaxSeconds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="labelMaxSeconds.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelMaxSeconds.Text" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="&gt;&gt;labelMaxSeconds.Name" xml:space="preserve">
+    <value>labelMaxSeconds</value>
+  </data>
+  <data name="&gt;&gt;labelMaxSeconds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMaxSeconds.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;labelMaxSeconds.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 52</value>
+  </data>
+  <data name="labelInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 46</value>
+  </data>
+  <data name="labelInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelInfo.Text" xml:space="preserve">
+    <value>Make sure that the music is paused when you click "Start"!</value>
+  </data>
+  <data name="labelInfo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labelInfo.Name" xml:space="preserve">
+    <value>labelInfo</value>
+  </data>
+  <data name="&gt;&gt;labelInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelInfo.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;labelInfo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="tableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 145</value>
+  </data>
+  <data name="tableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel.Name" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="textBoxMaxDuration" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="labelMaxDuration" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labelMinDuration" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="textBoxMinDuration" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="labelMinSeconds" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="buttonStart" Row="3" RowSpan="1" Column="0" ColumnSpan="3" /&gt;&lt;Control Name="labelMaxSeconds" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="labelInfo" Row="2" RowSpan="1" Column="0" ColumnSpan="3" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,100,AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>334, 161</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyca6L8G9
+        sIG3sqG/qKGL6JGHYvyRh2L8qKGL6Leyob7BvbCByca6LwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE9no/9PZ6P/vbmqnpKI
+        ZPx/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9PZ6P/T2ej/39yNv9/cjb/kohk/L25qp7Myb4CAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT2ej/09n
+        o/9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/09no/9PZ6P/f3I2/39yNv9/cjb/f3I2/6eh
+        iunJxboxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzMm+Ar+6
+        rJdPZ6P/T2ej/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/T2ej/09no/9/cjb/f3I2/39y
+        Nv9/cjb/f3I2/4uAVv6/uqyVzMm+AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzJ
+        vgKuqJTbf3I2/09no/9PZ6P/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9PZ6P/T2ej/39y
+        Nv9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv+vqZXbzMm+AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAvrqsmH9yNv9/cjb/T2ej/09no/9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/09n
+        o/9PZ6P/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv+/uqyXAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAMnFujOLgFb+f3I2/39yNv9PZ6P/T2ej/39yNv9/cjb/f3I2/39yNv9PZ6P/T2ej/39y
+        Nv9/cjb/T2ej/09no/9/cjb/f3I2/39yNv9PZ6P/T2ej/39yNv9/cjb/f3I2/4uAVv7JxboxAAAAAAAA
+        AAAAAAAAAAAAAAAAAADMyb4Cp6CJ6n9yNv9/cjb/f3I2/09no/9PZ6P/f3I2/39yNv9/cjb/f3I2/09n
+        o/9PZ6P/f3I2/39yNv9PZ6P/T2ej/39yNv9/cjb/f3I2/09no/9PZ6P/f3I2/39yNv9/cjb/f3I2/6eh
+        iunMyb4CAAAAAAAAAAAAAAAAAAAAAL25qp9/cjb/f3I2/39yNv9/cjb/T2ej/09no/9/cjb/f3I2/39y
+        Nv9/cjb/T2ej/09no/9/cjb/f3I2/09no/9PZ6P/f3I2/39yNv9/cjb/T2ej/09no/9/cjb/f3I2/39y
+        Nv9/cjb/f3I2/725qp4AAAAAAAAAAAAAAAAAAAAAkYhj/H9yNv9/cjb/f3I2/39yNv9PZ6P/T2ej/39y
+        Nv9/cjb/f3I2/39yNv9PZ6P/T2ej/39yNv9/cjb/T2ej/09no/9/cjb/f3I2/39yNv9PZ6P/T2ej/39y
+        Nv9/cjb/f3I2/39yNv9/cjb/kohk/AAAAAAAAAAAAAAAAMnFujF/cjb/f3I2/39yNv9/cjb/f3I2/09n
+        o/9PZ6P/T2ej/09no/9PZ6P/T2ej/09no/9PZ6P/T2ej/09no/9PZ6P/T2ej/39yNv9/cjb/f3I2/09n
+        o/9PZ6P/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/yca6LwAAAAAAAAAAwb2wg39yNv9/cjb/f3I2/39y
+        Nv9/cjb/f3I2/09no/9PZ6P/T2ej/09no/9PZ6P/T2ej/09no/9PZ6P/T2ej/09no/9PZ6P/T2ej/39y
+        Nv9/cjb/T2ej/09no/9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv/BvbCBAAAAAAAAAAC3sqG/f3I2/39y
+        Nv9/cjb/f3I2/39yNv9/cjb/f3I2/09no/9PZ6P/T2ej/09no/9PZ6P/T2ej/09no/9PZ6P/T2ej/09n
+        o/9PZ6P/T2ej/39yNv9PZ6P/T2ej/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/7eyob4AAAAAAAAAAKih
+        iul/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/09no/9PZ6P/T2ej/09no/9PZ6P/T2ej/09n
+        o/9PZ6P/T2ej/09no/9PZ6P/T2ej/09no/9PZ6P/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/qKGL6AAA
+        AAAAAAAAkIZh/X9yNv9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/09no/9PZ6P/T2ej/09n
+        o/9PZ6P/T2ej/09no/9PZ6P/T2ej/09no/9PZ6P/T2ej/09no/9/cjb/f3I2/39yNv9/cjb/f3I2/39y
+        Nv+Rh2L8AAAAAAAAAACQhmH9f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/09n
+        o/9PZ6P/T2ej/09no/9PZ6P/T2ej/09no/9PZ6P/T2ej/09no/9PZ6P/T2ej/39yNv9/cjb/f3I2/39y
+        Nv9/cjb/f3I2/5GHYvwAAAAAAAAAAKihiul/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/39y
+        Nv9/cjb/f3I2/09no/9PZ6P/f3I2/09no/9/cjb/T2ej/39yNv9PZ6P/f3I2/09no/9PZ6P/f3I2/39y
+        Nv9/cjb/f3I2/39yNv9/cjb/qKGL6AAAAAAAAAAAt7Khv39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/39y
+        Nv9/cjb/f3I2/39yNv9/cjb/T2ej/09no/9/cjb/T2ej/39yNv9PZ6P/f3I2/09no/9/cjb/T2ej/09n
+        o/9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv+3sqG+AAAAAAAAAADBvbCDf3I2/39yNv9/cjb/f3I2/39y
+        Nv9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9PZ6P/T2ej/39yNv9PZ6P/f3I2/09no/9/cjb/T2ej/39y
+        Nv9PZ6P/T2ej/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/8G9sIEAAAAAAAAAAMnFujF/cjb/f3I2/39y
+        Nv9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/09no/9PZ6P/f3I2/09no/9/cjb/T2ej/39y
+        Nv9PZ6P/f3I2/09no/9PZ6P/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/yca6LwAAAAAAAAAAAAAAAJGI
+        Y/x/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/T2ej/09no/9/cjb/T2ej/39y
+        Nv9PZ6P/f3I2/09no/9/cjb/T2ej/09no/9/cjb/f3I2/39yNv9/cjb/f3I2/5KIZPwAAAAAAAAAAAAA
+        AAAAAAAAAAAA/wAAAP9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9PZ6P/T2ej/39y
+        Nv9PZ6P/f3I2/09no/9/cjb/T2ej/39yNv9PZ6P/T2ej/39yNv9/cjb/f3I2/39yNv9/cjb/vbmqngAA
+        AAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAP9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/09n
+        o/9PZ6P/f3I2/09no/9/cjb/T2ej/39yNv9PZ6P/f3I2/09no/9PZ6P/f3I2/39yNv9/cjb/f3I2/6eg
+        ierMyb4CAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/39yNv9/cjb/AAAA/wAAAP9/cjb/f3I2/39y
+        Nv9/cjb/T2ej/09no/9/cjb/T2ej/39yNv9PZ6P/f3I2/09no/9/cjb/T2ej/09no/9/cjb/f3I2/39y
+        Nv+LgFb+ycW6MwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/f3I2/wAAAP8AAAD/AAAA/wAA
+        AP9/cjb/f3I2/39yNv9PZ6P/T2ej/39yNv9PZ6P/f3I2/09no/9/cjb/T2ej/39yNv9PZ6P/T2ej/39y
+        Nv9/cjb/f3I2/7+6rJcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+uqJTbAAAA/wAA
+        AP8AAAD/AAAA/39yNv9/cjb/f3I2/09no/9PZ6P/T2ej/09no/9PZ6P/T2ej/09no/9PZ6P/T2ej/09n
+        o/9PZ6P/f3I2/39yNv+vqZXbzMm+AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/8zJ
+        vgK+uqyYAAAA/wAAAP8AAAD/f3I2/39yNv9/cjb/f3I2/09no/9PZ6P/T2ej/09no/9PZ6P/T2ej/09n
+        o/9PZ6P/T2ej/39yNv+LgFb+v7qsl8zJvgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAD/AAAA/wAAAADJxbozp6CJ6gAAAP9/cjb/f3I2/39yNv9/cjb/f3I2/39yNv9/cjb/f3I2/39y
+        Nv9/cjb/f3I2/39yNv9/cjb/p6GK6cnFujEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP/Myb4CAAAA/5GIY/x/cjb/f3I2/39yNv9/cjb/f3I2/39y
+        Nv9/cjb/f3I2/39yNv9/cjb/kYhj/L25qp/Myb4CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAAAMnFujHBvbCDt7KhwKih
+        iumQhmH9kIZh/aihium3sqG/wb2wg8nFujEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA///////gB//+AAD//gAAf/gAAB/wAAAP8AAAD+AAAAfAAAADwAAAA8AA
+        AAOAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABwAAAA8AAAAOAAAADgAAAB8AA
+        AA/wAAAP8AAAH/IAAH/8AAD//yAH//////8=
+</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>600, 300</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>230, 200</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Musical Chairs</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

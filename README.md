@@ -1,0 +1,2 @@
+# Musical Chairs
+Have you ever played the party game called "Musical Chairs"? Doesn't it kinda suck that one person has to control the music and therefore can't join in on the fun? Well, here's the solution! This utility is used to simulate pressing the play/pause media key after a random duration. The minimum and maximum duration can be set to anything you want. Any music software that support media keys should work just fine.
